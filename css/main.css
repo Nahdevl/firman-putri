@@ -682,8 +682,14 @@ About
 .img-middle{
 	display: block;
 	border: 1px solid #d8d8d8;
-	padding: 25px;
+	/* padding: 25px; */
 	margin: 20px auto 25px;
+}
+img#wanita{
+	width: 100%;
+}
+img#pria{
+	width: 100%;
 }
 .align-center {
     text-align: center;
