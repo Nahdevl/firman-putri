@@ -43,9 +43,23 @@
 </head>
 
 <body>
+<!-- Welcome Section -->
+<div id="welcome-section" style="position: fixed; width: 100vw; height: 100vh; background: url('images/portfolio/firman1.jpeg') no-repeat center center; background-size: cover; z-index: 9999; display: flex; justify-content: center; align-items: center; flex-direction: column; text-align: center; color: #fff;">
+    <div style="position: absolute; width: 100%; height: 100%; background: inherit; filter: blur(8px);"></div>
+    <div style="background-color: rgba(0, 0, 0, 0.5); padding: 20px; border-radius: 10px; position: relative; z-index: 1;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="#e63946" stroke="#e63946" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart" style="margin-bottom: 0px;">
+            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"></path>
+        </svg>
+        <h1 style="margin-top: 5px; font-size: 3em; margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); color: #ffcc00;">Wedding Invitation</h1>
+        <p style="font-size: 1em; margin-bottom: 5px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); color: #d3d3d3;">kepada Yth Saudara/Saudari </p>
+        <h3 id="to" style="margin-top: 5px; margin-bottom: 20px;  font-family: 'elegant-theme-line'; font-size: 2.5rem; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); color: #fff;"></h3>
+        <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); color: #d3d3d3; font-size: 13px;">Kami Mengundang Anda untuk hadir dalam pernikahan kami yang akan diselenggarakan pada hari <br>Rabu, 24 April 2024</p>
+        <button onclick="enterSite()" style="padding: 10px 10px; font-size: 1.2em; background-color: rgba(255, 255, 255, 0.2); color: #ffcc00; border: none; border-radius: 5px; cursor: pointer; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Buka undangan</button>
+    </div>
+</div>
 
-  <!-- banner text --> 
- 
+<audio id="music" src="images/musik.mp3" loop></audio>
+
 <div id="first-slider">
     <div id="carousel-example-generic" class="carousel slide carousel-fade">
         <!-- Indicators -->
@@ -115,14 +129,14 @@
     <div class="row">  
             <div id="content24" data-section="content-24" class="data-section"> 
     		<div data-aos="fade-left" class="col-md-6">
-				<img id="wanita" src="images/portfolio/lutfiah.jpeg" alt="bride" class="img-middle"/>
+				<img id="wanita" src="images/portfolio/lutfiah1.jpeg" alt="bride" class="img-middle"/>
 				<div class="align-center">
 				<h3>Lutfiah Romdona Putri</h3>
 				<p>Putri Pertama dari Bapak Taryono & Ibu Nurafifah</p>
 				</div>
 			</div>
 				<div data-aos="fade-right" class="col-md-6">  
-				<img id="pria" src="images/portfolio/firman.jpeg" alt="bride" class="img-middle"/>
+				<img id="pria" src="images/portfolio/firman8.jpeg" alt="bride" class="img-middle"/>
 				<div class="align-center">
 				<h3>Firman Mubarok</h3>
 				<p>Putra Ketiga dari Bapak Een Suhendi & Ibu Nasikhah</p>
@@ -204,6 +218,30 @@
           </div>
           <!-- overlay --> 
           </a> </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/portfolio/firman4.jpeg" class="work-box"> <img src="images/portfolio/firman5.jpeg" alt="">
+            <div class="overlay">
+              <div class="overlay-caption">
+                 <p><span class="icon icon-magnifying-glass"></span></p>
+              </div>
+            </div>
+            <!-- overlay --> 
+            </a> </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/portfolio/firman4.jpeg" class="work-box"> <img src="images/portfolio/firman6.jpeg" alt="">
+            <div class="overlay">
+              <div class="overlay-caption">
+                 <p><span class="icon icon-magnifying-glass"></span></p>
+              </div>
+            </div>
+            <!-- overlay --> 
+            </a> </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/portfolio/firman4.jpeg" class="work-box"> <img src="images/portfolio/firman7.jpeg" alt="">
+            <div class="overlay">
+              <div class="overlay-caption">
+                 <p><span class="icon icon-magnifying-glass"></span></p>
+              </div>
+            </div>
+            <!-- overlay --> 
+            </a> </div>
           <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/portfolio/firman4.jpeg" class="work-box"> <img src="images/portfolio/firman4.jpeg" alt="">
             <div class="overlay">
               <div class="overlay-caption">
@@ -228,8 +266,8 @@
         <div class="person"><img src="images/bri.png" alt="" class="img-responsive">
           <div class="person-content">
             <h4>Via Bank Bri</h4> 
-          <p id="bri">Bank BRI Atas Nama Lutfiah Rodona Putri no rek: 414101054195538</p>
-          <button onclick="copyToClipboard('Bank BRI: 414101054195538')" style="border: none; background: none; padding: 0;">
+          <p id="bri">Bank BRI Atas Nama Lutfiah Romdona Putri no rek: 414101054195538</p>
+          <button onclick="copyToClipboard('bri')" style="border: none; background: none; padding: 0;">
             <img src="images/copy-svgrepo-com.svg" alt="Salin Nomor Rekening" style="width: 24px; height: 24px;">
           </button>
           
@@ -240,8 +278,8 @@
         <div class="person"> <img src="images/mandiri.png" alt="" class="img-responsive">
           <div class="person-content">
             <h4>Via Bank Mandiri</h4> 
-          <p id="Mandiri">Bank Mandiri Atas Nama Lutfiah Rodona Putri no rek: 1340023376246</p>
-          <button onclick="copyToClipboard('Bank Mandiri: 1340023376246')" style="border: none; background: none; padding: 0;">
+          <p id="Mandiri">Bank Mandiri Atas Nama Lutfiah Romdona Putri no rek: 1340023376246</p>
+          <button onclick="copyToClipboard('Mandiri')" style="border: none; background: none; padding: 0;">
             <img src="images/copy-svgrepo-com.svg" alt="Salin Nomor Rekening" style="width: 24px; height: 24px;">
           </button>
           </div> 
@@ -322,6 +360,17 @@
 <script type="text/javascript" src="js/jquery.contact.js"></script> 
 <script>
   AOS.init();
+  var audio = document.getElementById("music");
+
+  function enterSite() {
+    document.getElementById('welcome-section').style.display = 'none';
+    audio.play();
+  }
+  var urlParams = new URLSearchParams(window.location.search);
+  var to = urlParams.get("to");
+  console.log(to);
+  const people = document.getElementById("to");
+  people.innerText = to.replace(/-/g, " ");
   function copyToClipboard(id) {
     const copyText = document.getElementById(id).innerText;
     navigator.clipboard.writeText(copyText).then(() => {
