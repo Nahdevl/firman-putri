@@ -10,7 +10,7 @@
 -------------------------------------------------------------------------------*/
 
 #first-slider .slide1 {
-    background-image: url('../images/portfolio/firman1.jpeg');
+    background-image: url('../images/portfolio/firman7.jpeg');
     background-size: cover;
 	background-position: center;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@
 
 }
 #first-slider .slide2 {
-  background-image: url('../images/portfolio/firman5.jpeg');
+  background-image: url('../images/portfolio/firman6.jpeg');
   background-size:cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -343,11 +343,11 @@ ul li {
 
 #first-slider .slide1 h3, #first-slider .slide2 h3, #first-slider .slide3 h3, #first-slider .slide4 h3{
     margin-top: 150px;
-	color: #0f0f0f;
+	color: #ffffff;
     font-size: 70px;
 }
 #first-slider .slide1 h4,#first-slider .slide2 h4,#first-slider .slide3 h4,#first-slider .slide4 h4{
-    color: #272727;
+    color: #fff;
     font-size: 20px;
     /* text-transform: uppercase; */
     font-weight: 400;
