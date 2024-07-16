@@ -67,7 +67,6 @@ $(document).ready(function() {
 			});
 		});
 	}
-	
 	//Variables on page load 
 	var $myCarousel = $('#carousel-example-generic'),
 		$firstAnimatingElems = $myCarousel.find('.item:first').find("[data-animation ^= 'animated']");
